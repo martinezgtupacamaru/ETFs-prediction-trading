@@ -103,7 +103,7 @@ A one-sided forecasting comparison using Bartlett Newey–West standard errors w
 
 The XGBoost forecasts determine whether the portfolio holds SPY or cash:
 
-$$w_t=\begin{cases}1,&\hat Y_t>0,\\0,&\hat Y_t\leq0.\end{cases}$$
+$$w_t=\mathbf{1}(\hat Y_t>0).$$
 
 A positive forecast means invest fully in SPY. Otherwise, hold cash.
 
