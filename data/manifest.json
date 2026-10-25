@@ -1,0 +1,12 @@
+{
+  "retrieved_utc": "2026-10-23T13:52:28.001176+00:00",
+  "sha256": {
+    "QQQ.json": "8750e41946d520ab44bc4f2a851c8662629ddbc25692f07240e31222fc83bba3",
+    "TLT.json": "86ab77c1dd428f8e22f64bf0cd8bdf063821740c730bea377159797c70b26509",
+    "SPY.json": "da625d6083254fc274a6be4f789c38e72d43a27eb55e8179e078473279d21269"
+  },
+  "source": "Yahoo Finance chart endpoint",
+  "analysis_start": "2006-01-03",
+  "analysis_end": "2025-12-31",
+  "observations": 15093
+}

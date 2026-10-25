@@ -1,0 +1,2 @@
+n,first_return_date,last_return_date,hac_lags,mean_daily_difference,daily_hac_se,annualized_mean_difference,annualized_hac_se,annualized_lower_95,p_one_sided,significant_5pct,status
+995,2022-01-11,2025-12-29,20,0.0001812378023219868,0.00016240498275634128,0.04567192618514067,0.040926055654598004,-0.021645444895142658,0.13221918331865,False,Retrospective exploratory; hypotheses and methods selected after outcomes were available

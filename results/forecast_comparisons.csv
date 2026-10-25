@@ -1,0 +1,2 @@
+model,n,mean_difference,hac_se,hac_lags,upper_95,p_one_sided,significant_5pct
+XGBoost,997,1.7671751746363085e-06,4.807305902599746e-06,20,9.674489724392722e-06,0.6434149813810807,False
