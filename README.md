@@ -28,6 +28,10 @@ $$O_t^{adj}=O_t\frac{C_t^{adj}}{C_t}.$$
 
 Trading takes place at the next opening, $t+1$, and the five-session holding period ends at the opening of $t+6$.
 
+In plain terms, make the prediction after today's close, execute at the next opening, and measure the return over five opening-to-opening intervals. For example, a Friday-close signal enters on Monday and ends at the following Monday's opening, assuming no holidays. The index is $t+6$ because counting starts at the entry opening, $t+1$. This avoids using closing information to trade retroactively at that same close.
+
+The target is 100 times the natural logarithm of the exit-to-entry price ratio; an increase from $500 to $510 gives a log return of about 1.98%, versus a simple return of 2%. Adjusted openings apply the provider's closing-price adjustment factor to the reported opening price, putting prices on a consistent basis for distributions and corporate actions. They are historical adjusted values, not guaranteed executable prices.
+
 ## Eight predictive features
 
 The model uses six indicators describing SPY's own historical movements and two additional indicators from QQQ and TLT.
